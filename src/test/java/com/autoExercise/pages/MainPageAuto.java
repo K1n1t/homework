@@ -12,7 +12,14 @@ public class MainPageAuto {
     @FindBy (xpath = "//a[@href='/login']")
     WebElement signUpBtn;
 
+    @FindBy(xpath = "//a[@href='/contact_us']")
+    WebElement contactUsLink;
+
     public void setSignUpBtn(){
         signUpBtn.click();
+    }
+
+    public void setContactUsLink(){
+        contactUsLink.click();
     }
 }

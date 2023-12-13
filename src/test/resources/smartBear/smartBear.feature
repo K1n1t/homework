@@ -50,4 +50,5 @@ Feature:  Web Order Functionality
       | cc         | 353453423234 |
       | expiration | 10/27        |
     Then user clicks on process button
+    |successMessage|
 

@@ -7,9 +7,9 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 
-        features = "src/test/resources/autoExercise",
+        features = "src/test/resources/autoExercise/autoContactUs",
         glue = "com/autoExercise/steps",
-        dryRun = false,
+        dryRun = true,
         plugin = {"pretty", "html:target/uiReport.html", "rerun:target/uiFailedTests.txt"}
 )
 public class AutoRunner {
