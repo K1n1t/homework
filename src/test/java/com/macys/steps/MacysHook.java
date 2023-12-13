@@ -10,5 +10,6 @@ public class MacysHook {
     @Before
     public void setDriver(){
         driver.get(ConfigReader.readProperty("macysURL"));
+        // test test kanata kanayt
     }
 }
